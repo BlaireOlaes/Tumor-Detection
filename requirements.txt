@@ -1,0 +1,16 @@
+# Core dependencies
+numpy==1.26.4
+opencv-python==4.9.0.80
+pillow==10.3.0
+ultralytics==8.2.26
+torch==2.3.0
+torchvision==0.18.0
+
+# GUI dependencies
+tkinter  # Usually comes with Python, so no version needed
+
+# PDF generation
+reportlab==4.2.0
+
+# Utils
+tqdm==4.66.4
