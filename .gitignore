@@ -1,0 +1,56 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+.env
+.vscode/
+*.log
+```
+
+The first entry `.venv/` will specifically ignore your virtual environment directory. The other entries are common Python-related files that are typically excluded from version control.
+
+You can open and edit this file directly in VS Code with:
+
+```bash
+code .gitignore
+```# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Local development settings
+.env
+.vscode/
+*.log
+```
+
+The first entry `.venv/` will specifically ignore your virtual environment directory. The other entries are common Python-related files that are typically excluded from version control.
+
+You can open and edit this file directly in VS Code with:
+
+```bash
+code .gitignore
